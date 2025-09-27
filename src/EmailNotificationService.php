@@ -18,7 +18,7 @@ final class EmailNotificationService
         $msg->setFrom($from);
         $msg->addTo($to);
         $msg->setSubject($subject);
-        $msg->setBody($body);
+        $msg->setHtmlBody($body);
 
         $this->mailer->send($msg);
     }
