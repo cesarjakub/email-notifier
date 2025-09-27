@@ -1,0 +1,17 @@
+# Composer dependencies
+/vendor/
+
+# Logs and temporary files
+/log/
+/temp/
+/.tmp/
+/*.log
+
+# IDE files
+/.idea/
+
+# OS files
+.DS_Store
+
+# PHPUnit & test caches
+/tests/_output/

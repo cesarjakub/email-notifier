@@ -1,0 +1,20 @@
+{
+    "name": "jakubcesar/email-notifier",
+    "description": "Email notification service for Nette Framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jakubcesar\\EmailNotifier\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "nette/mail": "^4.0",
+        "nette/di": "^3.2",
+        "tracy/tracy": "^2.10"
+    },
+    "require-dev": {
+        "nextras/mail-panel": "^2.6"
+    }
+}
