@@ -33,7 +33,7 @@ services:
 ```
 
 ### local.neon (development)
-```
+```neon
 services:
     # V dev se emaily ukládají do Tracy Mail Panelu
     nette.mailer:
@@ -41,7 +41,7 @@ services:
 ```
 
 ### production.neon (produkce)
-```
+```neon
 services:
     # V produkci se emaily posílají skutečně uživateli
     nette.mailer:
