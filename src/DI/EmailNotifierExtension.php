@@ -12,8 +12,9 @@ class EmailNotifierExtension extends CompilerExtension
         $builder = $this->getContainerBuilder();
 
         $builder->addDefinition($this->prefix('service'))
-            ->setFactory(EmailNotificationService::class, [
-                $builder->getDefinition('nette.mailer') ?? null
+            ->setFactory(EmailNotificationService::class)
+            ->setArguments([
+                '@nette.mailer',
             ]);
     }
 }
