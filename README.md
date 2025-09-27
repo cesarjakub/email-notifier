@@ -7,10 +7,10 @@ Podporuje **dev/prod režim**:
 ---
 
 ## Instalace
-    ```bash
-    composer require jakubcesar/email-notifier
-    composer require --dev nextras/mail-panel nette/tester
-    ```
+```bash
+composer require jakubcesar/email-notifier
+composer require --dev nextras/mail-panel nette/tester
+```
 
 ## Konfigurace (NEON)
 Doporučený způsob je rozdělit konfiguraci podle prostředí:
