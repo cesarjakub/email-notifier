@@ -10,11 +10,13 @@
     },
     "minimum-stability": "stable",
     "require": {
+        "php": ">=8.1",
         "nette/mail": "^4.0",
         "nette/di": "^3.2",
         "tracy/tracy": "^2.10"
     },
     "require-dev": {
-        "nextras/mail-panel": "^2.6"
+        "nextras/mail-panel": "^2.6",
+        "nette/tester": "^2.5"
     }
 }
